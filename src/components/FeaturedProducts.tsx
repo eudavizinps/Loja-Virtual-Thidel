@@ -45,9 +45,9 @@ export default function FeaturedProducts() {
           {["Todos", "Ternos", "Camisas", "Esporte Fino"].map((tab, i) => (
             <button
               key={i}
-              className={\`px-5 py-2.5 rounded-full text-[11px] uppercase tracking-[2px] whitespace-nowrap transition-colors border \${
+              className={`px-5 py-2.5 rounded-full text-[11px] uppercase tracking-[2px] whitespace-nowrap transition-colors border ${
                 i === 0 ? "bg-ink text-bg border-ink" : "bg-transparent text-ink border-line hover:bg-ink hover:text-bg"
-              }\`}
+              }`}
             >
               {tab}
             </button>
@@ -66,7 +66,7 @@ export default function FeaturedProducts() {
               )}
               <div
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                style={{ backgroundImage: \`url('\${product.image}')\` }}
+                style={{ backgroundImage: `url('${product.image}')` }}
               />
               <div className="absolute inset-x-0 bottom-0 bg-grn text-white text-center py-4 text-[11px] uppercase tracking-[2px] transform translate-y-full transition-transform duration-300 group-hover:translate-y-0 z-10 flex items-center justify-center gap-2">
                 <Plus className="w-4 h-4" /> Ver Detalhes

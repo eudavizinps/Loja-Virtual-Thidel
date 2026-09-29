@@ -37,7 +37,7 @@ export default function Categories() {
           >
             <div
               className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-              style={{ backgroundImage: \`url('\${item.image}')\` }}
+              style={{ backgroundImage: `url('${item.image}')` }}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity" />
             

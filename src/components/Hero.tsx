@@ -47,7 +47,7 @@ export default function Hero() {
             className={`absolute inset-0 bg-cover bg-center transition-transform duration-[10000ms] ${
               index === current ? "scale-105" : "scale-100"
             }`}
-            style={{ backgroundImage: \`url('\${slide.image}')\` }}
+            style={{ backgroundImage: `url('${slide.image}')` }}
           />
           {/* Dark Overlay for better text readability */}
           <div className="absolute inset-0 bg-black/40 bg-gradient-to-t from-black/60 to-transparent" />
@@ -91,7 +91,7 @@ export default function Hero() {
             className={`h-[2px] transition-all duration-500 ${
               index === current ? "w-12 bg-gold" : "w-6 bg-white/50 hover:bg-white"
             }`}
-            aria-label={\`Ir para slide \${index + 1}\`}
+            aria-label={`Ir para slide ${index + 1}`}
           />
         ))}
       </div>
