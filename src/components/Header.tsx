@@ -37,8 +37,14 @@ export default function Header() {
 
         {/* Logo */}
         <div className="flex-1 lg:flex-none text-center">
-          <a href="#" className="font-serif text-2xl lg:text-3xl tracking-[0.1em] font-medium">
-            THIDEL
+          <a href="#" className="inline-block">
+            <img 
+              src="/logo.png" 
+              alt="Thidel Alfaiataria" 
+              className={`h-12 w-auto mx-auto transition-all duration-500 ${
+                !isScrolled ? "brightness-0 invert opacity-90" : "opacity-100"
+              }`} 
+            />
           </a>
         </div>
 

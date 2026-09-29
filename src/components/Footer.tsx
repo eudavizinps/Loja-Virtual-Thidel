@@ -6,7 +6,11 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="lg:col-span-1">
-            <div className="font-serif text-2xl tracking-[0.1em] text-white mb-6">THIDEL</div>
+            <img 
+              src="/logo.png" 
+              alt="Thidel Alfaiataria" 
+              className="h-16 w-auto mb-6 brightness-0 invert opacity-90" 
+            />
             <p className="text-sm opacity-80 leading-relaxed mb-6">
               Alta alfaiataria masculina.<br />
               Ternos e moda esporte fino cortados com precisão.
