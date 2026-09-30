@@ -22,7 +22,7 @@ export default function Header() {
           : "bg-transparent border-transparent text-white py-6"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 flex justify-between items-center relative">
         {/* Mobile Menu */}
         <button className="lg:hidden p-2 -ml-2">
           <Menu className="w-5 h-5" />
@@ -36,12 +36,12 @@ export default function Header() {
         </nav>
 
         {/* Logo */}
-        <div className="flex-1 lg:flex-none text-center">
+        <div className="absolute left-1/2 transform -translate-x-1/2 text-center">
           <a href="#" className="inline-block">
             <img 
               src="/logo.png" 
               alt="Thidel Alfaiataria" 
-              className={`h-20 md:h-24 w-auto mx-auto transition-all duration-500 ${
+              className={`h-14 md:h-16 w-auto mx-auto transition-all duration-500 ${
                 !isScrolled ? "brightness-0 invert opacity-90" : "opacity-100"
               }`} 
             />
