@@ -9,7 +9,7 @@ export default function Footer() {
             <img 
               src="/logo.png" 
               alt="Thidel Alfaiataria" 
-              className="h-16 w-auto mb-6 brightness-0 invert opacity-90" 
+              className="h-28 md:h-32 w-auto mb-6 brightness-0 invert opacity-90" 
             />
             <p className="text-sm opacity-80 leading-relaxed mb-6">
               Alta alfaiataria masculina.<br />

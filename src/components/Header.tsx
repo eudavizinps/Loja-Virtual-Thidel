@@ -41,7 +41,7 @@ export default function Header() {
             <img 
               src="/logo.png" 
               alt="Thidel Alfaiataria" 
-              className={`h-12 w-auto mx-auto transition-all duration-500 ${
+              className={`h-20 md:h-24 w-auto mx-auto transition-all duration-500 ${
                 !isScrolled ? "brightness-0 invert opacity-90" : "opacity-100"
               }`} 
             />
