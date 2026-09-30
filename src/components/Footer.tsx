@@ -17,7 +17,8 @@ export default function Footer() {
             </p>
             <p className="text-sm opacity-80">
               contato@thidel.com.br<br />
-              São Paulo, SP
+              Shopping Jardim Guadalupe - 1º piso.<br />
+              Rio de Janeiro/RJ
             </p>
           </div>
           
